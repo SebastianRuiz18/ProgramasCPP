@@ -1,14 +1,3 @@
-/*
-
-TITULO: PRACTICA Ejercicios capitulo3
-FILENAME:tipo8.s
-AUTOR:RODRIGUEZ SOLIS DANIEL ALEJANDRO
-DATE:07/12/2021
-DESCRIPCION:Uso de macros
-*/
-
-
-
 .macro abs
  tst     r0, r0
  negmi   r0, r0 
