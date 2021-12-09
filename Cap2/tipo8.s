@@ -35,6 +35,6 @@ _start: push { r4, lr }
         bl printf
         pop { r4, lr }
         bx lr
-abs:    tst r0, r0 /* comprueba el flag de signo*/
-	negmi r0, r0 /* si es negativo, negamos de nuevo*/
+abs:    tst r0, r0 
+	negmi r0, r0 
         bx lr
